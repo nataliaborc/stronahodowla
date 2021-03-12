@@ -1,0 +1,79 @@
+html, body {
+	background-color: #B39DDB;
+	background-position: center;
+	color: #000;
+	margin: 0;
+	padding: 0; }
+
+#top {
+	margin:0 auto;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 15px;
+	width: 1000px;
+	background-color: #9575CD; }
+
+#NAGLOWEK {
+	width: 1000px; margin: 0; padding: 0; height: 115px; background-color: #7E57C2; }
+
+#MENU {
+	width: 950px; height: 50px; text-align: center; background-color: lilac; padding: 25px; }
+
+#MENU a {
+	background-color: rose; color: lavender; padding: 5px }
+
+#MENU a:hover {
+	background-color red; color: red; padding: 5px; }
+
+#KOLUMNA_LEWA {
+	clear: both;
+	width: 660px;
+	float: left;
+	overflow: hidden;
+	background-color: #D1C4E9; 
+	margin: 0;
+	padding: 20px; }	
+
+#KOLUMNA_PRAWA {
+	width:260px;
+	float: right;
+	overflow: hidden;
+	background-color: #EDE7F6; 
+	margin: 0;
+	padding: 20px; }
+
+#STOPKA {
+    width: 970px; height: 50px; clear: both; background-color: #673AB7; color: black; font-size: 15px; padding: 15px}
+
+ul {
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+li a {
+display: block;
+float: left;
+text-align: center;
+font-size: 1.2em;
+width: 130px;
+text-decoration: none;
+color: #CC99CC;
+background-color: #663399;
+padding: 10px 15px;
+margin: 0px 1px 1px 0px;
+border: 1px solid black;
+border-radius: 3px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 2px 3px white;
+-moz-box-shadow: 0px 2px 3px white;
+-webkit-box-shadow: 0px 2px 3px white;
+}
+
+li a:hover {
+color: #663399;
+background: #CC99CC;
+border: 1px solid white;
+}
